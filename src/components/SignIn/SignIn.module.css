@@ -1,0 +1,16 @@
+.card_signIn{
+  height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+top: 0;
+right: 150px;
+}
+.form_group{
+  width: 421px;
+
+
+
+
+}

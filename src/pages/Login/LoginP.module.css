@@ -1,0 +1,9 @@
+.card{
+  width: 839px;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #3178C6;
+  position: relative;
+}

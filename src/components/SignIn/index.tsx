@@ -33,7 +33,7 @@ const SignIn: React.FC = () => {
         <h2 className="text-center to-gray-700 text-4xl">Sign in</h2>
         {error && <Alert message={error} type="error" showIcon className="mb-4" />}
 
-        <Form<LoginFormValues> // ✅ TypeScript bilan Form
+        <Form<LoginFormValues> 
           onFinish={onFinish}
           name="basic"
           layout="vertical"

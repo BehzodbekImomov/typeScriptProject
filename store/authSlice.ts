@@ -16,7 +16,7 @@ const authSlice = createSlice({
   reducers: {
     login: (state, action: PayloadAction<{ username: string; password: string }>) => {
       state.isAuthenticated = true;
-      state.username = action.payload.username; // ✅ To‘g‘ri ishlaydi
+      state.username = action.payload.username;
     },
     logout: (state) => {
       state.isAuthenticated = false;
